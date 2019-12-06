@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Setting"
+            android:textSize="50sp"
+            android:textStyle="bold"
+            android:textOn="On"
+            android:textOff="Off"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Thong bao"
+            android:textSize="30sp"/>
+
+        <Switch
+            android:id="@+id/simpleSwitch"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:theme="@style/mySwitch"
+            android:textOff="Tắt"
+            android:textOn="Bật"
+
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:checked="true"
+            android:switchMinHeight="100dp"
+            android:text="Thong bao:"
+            android:textOff="Off"
+            android:textOn="On"
+            android:textSize="40sp" />
+    </LinearLayout>
+</LinearLayout>

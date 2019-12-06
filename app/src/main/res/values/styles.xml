@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- change color of switch -->
+    <style name="mySwitch">
+        <item name="android:colorActivatedHighlight">@color/colorPrimary</item>
+    </style>
 </resources>
